@@ -3,6 +3,7 @@
 
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs";
+    subFlake.url = "path:./sub-flake";
   };
 
   outputs = inputs: {
